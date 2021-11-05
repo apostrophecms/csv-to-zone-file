@@ -1,0 +1,29 @@
+{
+  "name": "csv-to-zonefile",
+  "version": "1.0.0",
+  "description": "Converts CSV to a zonefile just good enough to import into Amazon Route 53",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/apostrophecms/csv-to-zone-file.git"
+  },
+  "keywords": [
+    "zone",
+    "file"
+  ],
+  "author": "Apostrophe Technologies, Inc.",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/apostrophecms/csv-to-zone-file/issues"
+  },
+  "homepage": "https://github.com/apostrophecms/csv-to-zone-file#readme",
+  "bin": {
+    "csv-to-zone-file": "./bin/csv-to-zone-file"
+  },
+  "dependencies": {
+    "csv-parse": "^4.16.3"
+  }
+}
