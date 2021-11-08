@@ -15,7 +15,7 @@ The CSV file must have columns as shown in this example:
 | ------ | ------ | ------- |
 | A      | www    | a.b.c.d |
 
-"Type" may be "A", "CNAME", etc. The suffix ` Record` is stripped from "Type" if present.
+`Type` may be `A`, `CNAME`, etc. The suffix ` Record` is stripped from `Type` if present.
 
 `TTL` is an optional column. If not present the TTL is 1 hour.
 
