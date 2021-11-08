@@ -1,7 +1,7 @@
 {
-  "name": "csv-to-zonefile",
+  "name": "csv-to-zone-file",
   "version": "1.0.0",
-  "description": "Converts CSV to a zonefile just good enough to import into Amazon Route 53",
+  "description": "Converts CSV to a zone-file just good enough to import into Amazon Route 53",
   "main": "app.js",
   "scripts": {
     "test": "npx eslint ."
@@ -25,7 +25,7 @@
   },
   "dependencies": {
     "csv-parse": "^4.16.3",
-    "eslint": "^8.2.0",
+    "eslint": "^7.0.0",
     "eslint-config-apostrophe": "^3.4.1",
     "eslint-config-standard": "^16.0.3",
     "eslint-plugin-import": "^2.25.2",
