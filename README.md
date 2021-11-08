@@ -12,7 +12,7 @@ csv-to-zone-file < myfile.csv > myfile.zone
 The CSV file must have columns as shown in this example:
 
 | `Type` | `Host` | `Value` |
-|--------|--------|---------|
+| ------ | ------ | ------- |
 | A      | www    | a.b.c.d |
 
 "Type" may be "A", "CNAME", etc. The suffix ` Record` is stripped from "Type" if present.
