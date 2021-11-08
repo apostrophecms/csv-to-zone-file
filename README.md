@@ -9,14 +9,14 @@ npm install -g csv-to-zone-file
 csv-to-zone-file < myfile.csv > myfile.zone
 ```
 
-The CSV file must have the following columns:
+The CSV file must have columns as shown in this example:
 
-`Type`
-`Host`
-`Value`
+| `Type` | `Host` | `Value` |
+-----------------------------
+| A      | www    | a.b.c.d |
 
-"Type" may be "A", "CNAME", etc. The suffix ` Record` is stripped if present.
+"Type" may be "A", "CNAME", etc. The suffix ` Record` is stripped from "Type" if present.
 
 `TTL` is an optional column. If not present the TTL is 1 hour.
 
-If `MX` records are present there must be a `Priority` column.
+If `MX` records are present there must be a `Priority` column as well.
