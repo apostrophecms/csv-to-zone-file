@@ -1,0 +1,36 @@
+{
+  "name": "csv-to-zonefile",
+  "version": "1.0.0",
+  "description": "Converts CSV to a zonefile just good enough to import into Amazon Route 53",
+  "main": "app.js",
+  "scripts": {
+    "test": "npx eslint ."
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/apostrophecms/csv-to-zone-file.git"
+  },
+  "keywords": [
+    "zone",
+    "file"
+  ],
+  "author": "Apostrophe Technologies, Inc.",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/apostrophecms/csv-to-zone-file/issues"
+  },
+  "homepage": "https://github.com/apostrophecms/csv-to-zone-file#readme",
+  "bin": {
+    "csv-to-zone-file": "./bin/csv-to-zone-file"
+  },
+  "dependencies": {
+    "csv-parse": "^4.16.3",
+    "eslint": "^8.2.0",
+    "eslint-config-apostrophe": "^3.4.1",
+    "eslint-config-standard": "^16.0.3",
+    "eslint-plugin-import": "^2.25.2",
+    "eslint-plugin-node": "^11.1.0",
+    "eslint-plugin-promise": "^5.1.1",
+    "eslint-plugin-standard": "^5.0.0"
+  }
+}
