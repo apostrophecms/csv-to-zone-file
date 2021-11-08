@@ -11,7 +11,7 @@ csv-to-zone-file < myfile.csv > myfile.zone
 
 The CSV file must have columns as shown in this example:
 
-| `Type` | `Host` | `Value` |
+|  Type  | Host   | Value   |
 | ------ | ------ | ------- |
 | A      | www    | a.b.c.d |
 
